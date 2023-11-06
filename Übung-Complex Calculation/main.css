@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #f0f0f0;
+}
+
+.container{
+ 
+    background-color: #fff;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+}
+
+
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 sütun */
+    grid-template-rows: repeat(3, 1fr); /* 3 satir */
+    gap: 10px; /* Dügme arasindaki bosluk */
+    margin: 10px 0;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+button{
+    display: flex;
+    flex-shrink: inherit;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    cursor: pointer;
+}
